@@ -119,28 +119,6 @@ document.querySelector('form').addEventListener('submit', e => {
     });
 ```
 
----
-api.php :
-```js
-
-```
-
-```js
-
-```
-
----
-api.php :
-```js
-
-```
-
-```js
-
-```
-
-
-
 # Code
 `http_response_code(401);`
 - 2XX : Success
@@ -148,13 +126,13 @@ api.php :
   - 201 : Created
   - 204 : No Content
 
-- 4XX : Pas marché
+- 4XX : Erreur client
   - 400 : Bad request (Quelque chose d'invalide : un nombre trop gros, un username deja existant...)
   - 401 : Unauthorized (Pas connecté)
   - 403 : Forbidden (T'es connecté, mais tu n'as pas les accès)
   - 404 : Page not found
 
-- 5XX : Pas marché
+- 5XX : Erreur serveur
 
 # API RESTful
 règles d'une api
